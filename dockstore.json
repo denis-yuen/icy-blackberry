@@ -1,0 +1,11 @@
+{
+  "input_file": {
+    "path": "https://raw.githubusercontent.com/denis-yuen/icy-blackberry/master/input.txt",
+    "format": "http://edamontology.org/data_3671",
+    "class": "File"
+  },
+  "output_file": {
+    "path": "s3://oicr.temp/output.txt",
+    "class": "File"
+  }
+}
