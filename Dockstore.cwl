@@ -20,7 +20,7 @@ dct:creator:
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/icy-blackberry:1.0 
+  dockerPull: quay.io/denis_yuen/icy-blackberry:1.0 
 
 hints:
 - class: ResourceRequirement
