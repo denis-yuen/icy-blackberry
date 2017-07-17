@@ -8,12 +8,25 @@ Use handy [quick start tutorial](https://github.com/ngs-docs/2017-cloud-workflow
 ### Run with cwltool
 
 ```
-cwltool --non-strict Dockstore.cwl params.json
+cwltool --non-strict Dockstore.cwl params.cwl.json
+```
+
+### Run with Cromwell
+
+```
+java -jar /home/dyuen/.dockstore/libraries/cromwell-0.21.jar run Dockstore.wdl params.wdl.json
 ```
 
 ### Run with Dockstore (consult launch-with)
 
-Setup permissions for Dockstore.json
+Setup permissions for file destinations in Dockstore.json 
+
+
 ```
-dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:master --json Dockstore.json
+dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:master --json Dockstore.cwl.json
+```
+
+```
+dockstore tool launch --local-entry Dockstore.wdl --json params.wdl.json --wdl-output-target .
+dockstore tool launch --local-entry Dockstore.wdl --json params.wdl.json --wdl-output-target s3://oicr.temp
 ```
