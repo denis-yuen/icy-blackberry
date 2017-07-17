@@ -1,0 +1,11 @@
+{
+  "input_file": {
+    "path": "input.txt",
+    "format": "http://edamontology.org/data_3671",
+    "class": "File"
+  },
+  "output_file": {
+    "path": "output.txt",
+    "class": "File"
+  }
+}
