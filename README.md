@@ -3,7 +3,7 @@ Example for the HCA Hackathon
 
 ## Usage
 
-Use handy [quick start tutorial](https://github.com/ngs-docs/2017-cloud-workflows-misc/blob/master/install-and-run-with-dockstore.md)
+Use handy [quick start tutorial](https://github.com/ngs-docs/2017-cloud-workflows-misc/blob/master/install-and-run-with-dockstore.md) to setup our dependencies
 
 ### Run with cwltool
 
