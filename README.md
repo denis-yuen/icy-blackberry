@@ -23,10 +23,11 @@ Setup permissions for file destinations in Dockstore.json
 
 
 ```
-dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:master --json Dockstore.cwl.json
+dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:1.1 --json params.cwl.local.json
+dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:1.1 --json dockstore.cwl.remote.json
 ```
 
 ```
-dockstore tool launch --local-entry Dockstore.wdl --json params.wdl.json --wdl-output-target .
-dockstore tool launch --local-entry Dockstore.wdl --json params.wdl.json --wdl-output-target s3://oicr.temp
+dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:1.1 --descriptor wdl --json params.wdl.json
+dockstore tool launch --entry quay.io/denis_yuen/icy-blackberry:1.1 --descriptor wdl --json params.wdl.json --wdl-output-target s3://oicr.temp
 ```
