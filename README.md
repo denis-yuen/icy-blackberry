@@ -13,6 +13,8 @@ cwltool --non-strict Dockstore.cwl params.cwl.json
 
 ### Run with Cromwell
 
+Download from https://github.com/broadinstitute/cromwell/releases (test with a newer release)
+
 ```
 java -jar /home/dyuen/.dockstore/libraries/cromwell-0.21.jar run Dockstore.wdl params.wdl.json
 ```
