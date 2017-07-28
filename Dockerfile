@@ -1,5 +1,5 @@
 FROM r-base
-USER denis.yuen@oicr.on.ca
+LABEL maintainer="denis.yuen@oicr.on.ca"
 ADD example.R example.R
 ADD HelloWorld.ipynb HelloWorld.ipynb
 RUN apt-get -m update && apt-get install -y python-pip 
