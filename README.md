@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/denis-yuen/icy-blackberry.svg?branch=master)](https://travis-ci.org/denis-yuen/icy-blackberry)
+
 # icy-blackberry
 Example for the HCA Hackathon
 
