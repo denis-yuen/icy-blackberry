@@ -16,5 +16,5 @@ install:
   - wget https://github.com/broadinstitute/cromwell/releases/download/28.2/cromwell-28_2.jar
 
 script: 
-  - cwltool --non-strict Dockstore.cwl https://github.com/denis-yuen/icy-blackberry/blob/master/params.cwl.local.json
+  - cwltool --non-strict Dockstore.cwl params.cwl.local.json
   - java -jar cromwell-28_2.jar run Dockstore.wdl params.wdl.json
