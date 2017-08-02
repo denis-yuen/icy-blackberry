@@ -10,7 +10,7 @@ Use handy [quick start tutorial](https://github.com/ngs-docs/2017-cloud-workflow
 ### Run with cwltool
 
 ```
-cwltool --non-strict Dockstore.cwl params.cwl.json
+cwltool --non-strict Dockstore.cwl params.cwl.local.json
 ```
 
 ### Run with Cromwell
